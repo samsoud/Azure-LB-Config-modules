@@ -1,4 +1,4 @@
-copy each module to the folder
+copy each module to the modules folder
 
 
 C:\Program Files\WindowsPowerShell\Modules\PowerShellGet\2.1.2\Modules
@@ -12,10 +12,10 @@ Import-module C:\Program Files\WindowsPowerShell\Modules\PowerShellGet\2.1.2\Mod
 Import-module C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules\LB_RemoveProbeandRul
 
 
-another module flder path :
+Another module flder path :
 C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
-C:\Program Files\WindowsPowerShell\Modules\PowerShellGet\2.1.2\Module
-Import-module C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules\LB_AddProbeAndRule
+
+
 ##############################################################################################################
 Note:
 
