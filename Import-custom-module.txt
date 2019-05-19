@@ -1,37 +1,27 @@
-import-module c:\lb\LB_AddProbeAndRule
-import-module c:\lb\LB_RemoveProbeandRule
+copy each module to the folder
 
-copy each module toafolder with the same name of the module  
 
-folder path 
-
-C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
 C:\Program Files\WindowsPowerShell\Modules\PowerShellGet\2.1.2\Modules
-
-Import-module C:\Program Files\WindowsPowerShell\Modules\PowerShellGet\2.1.2\Modules\LB_AddProbeAndRule
-or
-Import-module C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules\LB_AddProbeAndRule
+with the same name of the module
+to  
+C:\Program Files\WindowsPowerShell\Modules\PowerShellGet\2.1.2\Modules\LB_AddProbeAndRule
+ and
+ C:\Program Files\WindowsPowerShell\Modules\PowerShellGet\2.1.2\Modules\LB_RemoveProbeandRul
 
 Import-module C:\Program Files\WindowsPowerShell\Modules\PowerShellGet\2.1.2\Modules\LB_RemoveProbeandRul
 Import-module C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules\LB_RemoveProbeandRul
 
 
-
+another module flder path :
+C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
+C:\Program Files\WindowsPowerShell\Modules\PowerShellGet\2.1.2\Module
+Import-module C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules\LB_AddProbeAndRule
 ##############################################################################################################
-Install-module  copy modules fromremote , youdont beed it if the files are local
+Note:
+
+use  install-modules in order to download modules from remote , in our case is not needed
 
 
-Install-module C:\Program Files\WindowsPowerShell\Modules\PowerShellGet\2.1.2\Modules\LB_AddProbeAndRule
-
-
-PS C:\lb> Install-module -Name LB_AddProbeAndRule
-PackageManagement\Install-Package : No match was found for the specified search criteria and module name 'LB_AddProbeAndRule'. Try Get-PSRepository to see all available registered module 
-repositories.
-At C:\Program Files\WindowsPowerShell\Modules\PowerShellGet\2.1.2\PSModule.psm1:9349 char:21
-+ ...          $null = PackageManagement\Install-Package @PSBoundParameters
-+                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-    + CategoryInfo          : ObjectNotFound: (Microsoft.Power....InstallPackage:InstallPackage) [Install-Package], Exception
-    + FullyQualifiedErrorId : NoMatchFoundForCriteria,Microsoft.PowerShell.PackageManagement.Cmdlets.InstallPackage
  
 
 
