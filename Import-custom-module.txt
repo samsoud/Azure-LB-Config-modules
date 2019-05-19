@@ -15,6 +15,18 @@ Import-module C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules\LB_RemoveProbea
 Another module flder path :
 C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
 
+S C:\lb> get-module LB_AddProbeAndRule
+
+ModuleType Version    Name                                ExportedCommands                                                                                                                   
+---------- -------    ----                                ----------------                                                                                                                   
+Script     0.0        LB_AddProbeAndRule                  LB_AddProbeAndRule 
+
+
+PS C:\lb>  get-module LB_RemoveProbeandRule
+
+ModuleType Version    Name                                ExportedCommands                                                                                                                   
+---------- -------    ----                                ----------------                                                                                                                   
+Script     0.0        LB_RemoveProbeandRule               LB_RemoveProbeandRule   
 
 ##############################################################################################################
 Note:
