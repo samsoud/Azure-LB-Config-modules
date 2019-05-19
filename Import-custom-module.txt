@@ -1,4 +1,4 @@
-copy each module to the modules folder
+Copy each custom module to the modules folder path :
 
 
 C:\Program Files\WindowsPowerShell\Modules\PowerShellGet\2.1.2\Modules
