@@ -19,7 +19,7 @@ $Subscription = Get-AzureRmSubscription -SubscriptionID $SubscriptionID | Select
 Select-AzureRmSubscription -SubscriptionID $SubscriptionID | Set-AzureRmContext
 
 $BackEndAddressPool=  New-AzurermLoadBalancerBackendAddressPoolConfig -Name $LBBackend 
-$BackEndAddressPool=  Get-AzurermLoadBalancerBackendAddressPoolConfig -Name $LBBackend -LoadBalancer $lb
+# $BackEndAddressPool=  Get-AzurermLoadBalancerBackendAddressPoolConfig -Name $LBBackend -LoadBalancer $lb
 
 $backendSubnet = New-AzurermVirtualNetworkSubnetConfig -Name $LBSubnet -AddressPrefix $AddressPrefix1
 #$backendSubnet = Get-AzureRmVirtualNetworkSubnetConfig -Name $LBSubnet -VirtualNetwork $virtualNetworkName
@@ -76,7 +76,7 @@ $BackendPool = Get-AzureRmLoadbalancerBackendAddressPoolConfig -Name $LBBackend 
 
 
 
-                Get-AzureRmLoadBalancerBackendAddressPoolConfig -Name  $bkend -LoadBalancer $Lb
+Get-AzureRmLoadBalancerBackendAddressPoolConfig -Name  $bkend -LoadBalancer $Lb
 
 
 function LB_AddProbeAndRule {
